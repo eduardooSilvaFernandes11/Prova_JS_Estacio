@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio3</title>
+</head>
+<body>
+    <script>
+        nomeLoja = String(prompt("Qual o nome da loja:"));
+        
+        var vendasMes1, vendasMes2, vendasMes3, vendasMes4, vendasMes5, 
+        vendasMes6, vendasMes7, vendasMes8, vendasMes9, vendasMes10, vendasMes11, vendasMes12;
+
+        vendasMes1 = prompt("Informe quantas vendas foram feitas em Janeiro: ");
+        vendasMes1 = eval(vendasMes1);
+
+        vendasMes2 = prompt("Informe quantas vendas foram feitas em Fevereiro: ");
+        vendasMes2 = eval(vendasMes2);
+
+        vendasMes3 = prompt("Informe quantas vendas foram feitas em Março: ");
+        vendasMes3 = eval(vendasMes3);
+
+        vendasMes3 = prompt("Informe quantas vendas foram feitas em Abril: ");
+        vendasMes3 = eval(vendasMes1);
+
+        vendasMes4 = prompt("Informe quantas vendas foram feitas em Maio: ");
+        vendasMes4 = eval(vendasMes4);
+
+        vendasMes5 = prompt("Informe quantas vendas foram feitas em Junho: ");
+        vendasMes5 = eval(vendasMes5);
+
+        vendasMes6 = prompt("Informe quantas vendas foram feitas em Agosto: ");
+        vendasMes6 = eval(vendasMes6);
+
+        vendasMes7 = prompt("Informe quantas vendas foram feitas em Outubro: ");
+        vendasMes7 = eval(vendasMes7);
+
+        vendasMes8 = prompt("Informe quantas vendas foram feitas em Agosto: ");
+        vendasMes8 = eval(vendasMes1);
+
+        vendasMes9 = prompt("Informe quantas vendas foram feitas em Setembro: ");
+        vendasMes9 = eval(vendasMes9);
+
+        vendasMes10 = prompt("Informe quantas vendas foram feitas em Outubro: ");
+        vendasMes10 = eval(vendasMes10);
+
+        vendasMes11 = prompt("Informe quantas vendas foram feitas em Novembro: ");
+        vendasMes11 = eval(vendasMes11);
+
+        vendasMes12 = prompt("Informe quantas vendas foram feitas em Dezembro: ");
+        vendasMes12 = eval(vendasMes12);
+
+        var VendasSemestre1 = (vendasMes1 + vendasMes2 + vendasMes3 + vendasMes4 + vendasMes5 + vendasMes6);
+        var VendasSemestre2 = (vendasMes7 + vendasMes8 + vendasMes9 + vendasMes10 + vendasMes11 + vendasMes12);
+
+        document.write("O nome da loja é " + nomeLoja + "<br>");
+        document.write("No primeiro semestre foram realizada " + VendasSemestre1 + " vendas <br>");
+        document.write("No segundo semestre foram realizada " + VendasSemestre2 + " vendas");
+
+    </script>
+</body>
+</html>
